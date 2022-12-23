@@ -58,6 +58,29 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Routes
+
+```bash
+# Create a new notification
+$ http://localhost:3000/notifications
+
+# Delete notification
+$ http://localhost:3000/notifications/{id}/cancel
+
+# Read notification
+$ http://localhost:3000/notifications/{id}/read
+
+# Unread notification
+$ http://localhost:3000/notifications/{id}/unread
+
+# Count notification from recipient
+$ http://localhost:3000/notifications/count/from/{recipientId}
+
+# Get all notification from recipient
+$ http://localhost:3000/notifications/from/{recipientId}
+```
+
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
