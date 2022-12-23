@@ -26,6 +26,12 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+# NodeJS Notification Service - Rocketseat ignite.
+
+Projeto realizado para o desafio da [Rocketseat](https://rocketseat.com.br/)
+
+- Dev - [Johnnick F. Landim](https://www.linkedin.com/in/johnnickjf/)
+
 ## Installation
 
 ```bash
